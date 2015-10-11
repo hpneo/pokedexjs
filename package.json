@@ -1,0 +1,30 @@
+{
+  "name": "pokedex.js",
+  "version": "1.0.0",
+  "description": "A Pokedex version made with React.js and Browserify",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "react",
+    "browserify",
+    "universal",
+    "isomorphic"
+  ],
+  "author": "Gustavo Leon",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
